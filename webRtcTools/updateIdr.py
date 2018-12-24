@@ -2,6 +2,6 @@
 
 import requests
 
-r = requests.get("http://192.168.8.101:12345/UpdateIFrame/",
-                 data="""{"encoder_name": "1970-01-011"}""")
+r = requests.get("http://127.0.0.1:12345/UpdateIFrame/",
+                 data="""{"encoder_name": "1970-01-01"}""")
 print(r.text)
